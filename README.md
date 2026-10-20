@@ -68,9 +68,15 @@ The protocol is documented in [docs/PROTOCOL.md](docs/PROTOCOL.md). In short: th
 `https://service.rs-smarthome.com:8433/AppService.asmx/Execute`. The static key and IV
 were taken from the JavaScript bundle of the Android app (it is a Capacitor/Ionic app).
 
-Thanks to the people in the
-[Home Assistant community thread](https://community.home-assistant.io/t/integration-for-expertan-rs-smart-home/544942)
-who documented the API codes.
+## Credits
+
+This integration builds on the
+[post by **umendi**](https://community.home-assistant.io/t/integration-for-expertan-rs-smart-home/544942/4)
+in the Home Assistant community thread
+"[Integration for Expertan/RS Smart Home](https://community.home-assistant.io/t/integration-for-expertan-rs-smart-home/544942)".
+That post described the API codes, the request format and the structure of a custom
+integration. The AES key and IV were left out there; this repository extracts them from the
+public Android app and publishes a complete, working integration.
 
 ---
 
@@ -84,6 +90,8 @@ Inoffizielle Home-Assistant-Integration für WLAN-Steckdosen, die mit der App
    (oder `custom_components/rs_smarthome` manuell nach `<config>/custom_components/` kopieren).
 2. **Einstellungen → Geräte & Dienste → Integration hinzufügen → RS SmartHome**
 3. Mit E-Mail und Passwort des RS-SmartHome-App-Kontos anmelden.
+
+Basiert auf dem [Beitrag von **umendi**](https://community.home-assistant.io/t/integration-for-expertan-rs-smart-home/544942/4) im Home-Assistant-Forum.
 
 Jede Steckdose erscheint als Schalter. Die Steuerung läuft über die Cloud des Herstellers;
 ändert dieser die API, kann die Integration ausfallen.
