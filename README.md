@@ -2,7 +2,7 @@
 
 Unofficial Home Assistant integration for Wi-Fi smart plugs that are controlled with the
 **RS-SmartHome** app (`com.risingsun.smarthome`, RisingSun). These plugs are sold under
-several brand names, e.g. **Expertan** and **LUNVON**.
+several brand names, e.g. **McPower Comfort**, **Expertan** and **LUNVON**.
 
 [![hacs][hacs-badge]][hacs-url]
 
@@ -19,7 +19,7 @@ several brand names, e.g. **Expertan** and **LUNVON**.
 - Automatic re-login when the session expires, re-auth dialog when the password changes
 - Polls the cloud every 30 seconds (`cloud_polling`)
 
-Tested with an Expertan Wi-Fi plug (device type 4) and RS-SmartHome app 5.7 on
+Tested with a McPower Comfort Wi-Fi plug (device type 4) and RS-SmartHome app 5.7 on
 Home Assistant 2026.9.
 
 ## Installation
@@ -83,7 +83,7 @@ public Android app and publishes a complete, working integration.
 ## Deutsch (Kurzfassung)
 
 Inoffizielle Home-Assistant-Integration für WLAN-Steckdosen, die mit der App
-**RS-SmartHome** gesteuert werden (u. a. **Expertan**, **LUNVON**).
+**RS-SmartHome** gesteuert werden (u. a. **McPower Comfort**, **Expertan**, **LUNVON**).
 
 1. In HACS unter **Benutzerdefinierte Repositories** `https://github.com/xphil-22/ha-rs-smarthome`
    als **Integration** hinzufügen, installieren und HA neu starten
@@ -98,7 +98,7 @@ Jede Steckdose erscheint als Schalter. Die Steuerung läuft über die Cloud des 
 
 ## License
 
-MIT, see [LICENSE](LICENSE). Not affiliated with RisingSun, Expertan or LUNVON.
+MIT, see [LICENSE](LICENSE). Not affiliated with RisingSun, McPower, Expertan or LUNVON.
 
 [hacs-badge]: https://img.shields.io/badge/HACS-Custom-41BDF5.svg
 [hacs-url]: https://hacs.xyz/docs/faq/custom_repositories/
