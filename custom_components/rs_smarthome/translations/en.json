@@ -1,0 +1,24 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "RS SmartHome",
+        "description": "Log in with your RS SmartHome app account.",
+        "data": {"username": "Email / username", "password": "Password"}
+      },
+      "reauth_confirm": {
+        "title": "RS SmartHome",
+        "description": "Please log in again.",
+        "data": {"username": "Email / username", "password": "Password"}
+      }
+    },
+    "error": {
+      "invalid_auth": "Invalid username or password.",
+      "cannot_connect": "Cannot reach the RS SmartHome cloud."
+    },
+    "abort": {
+      "already_configured": "This account is already configured.",
+      "reauth_successful": "Re-authentication successful."
+    }
+  }
+}
