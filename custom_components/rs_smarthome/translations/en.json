@@ -18,7 +18,8 @@
     },
     "abort": {
       "already_configured": "This account is already configured.",
-      "reauth_successful": "Re-authentication successful."
+      "reauth_successful": "Re-authentication successful.",
+      "unique_id_mismatch": "Please log in with the same account that was originally configured."
     }
   }
 }
